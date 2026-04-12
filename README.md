@@ -1,6 +1,6 @@
 # TV Prox-Adan: Robust Tensor Completion under Low Sampling Ratios
 
-This repository contains the MATLAB implementation for the paper **“TV Prox-Adan: An Accelerated Algorithm for Robust Tensor Completion under Low Sampling Ratios.”** The proposed method combines CP decomposition, total variation (TV) regularization, and the Adan optimizer to achieve robust and efficient tensor completion, especially under extremely low sampling conditions.
+This repository contains the MATLAB implementation for the paper **“TV Prox-Adan: An Accelerated Algorithm for Robust Tensor Completion under Low Sampling Ratios.”** The proposed method combines CP decomposition, total variation (TV) regularization, and the Adan optimizer to achieve robust and efficient tensor completion, especially under low sampling conditions.
 
 The core implementation is provided in `TV_Prox_Adan.m`. For evaluation, the repository includes two types of testing scripts. The `*_single.m` scripts are designed for testing a single tensor at a single sampling ratio, which is useful for quick verification or debugging. In contrast, the `*_dir.m` scripts are used to process multiple tensors from a directory, repeat experiments multiple times, and compute averaged performance metrics. The latter is recommended for reproducing the experimental results reported in the paper.
 
